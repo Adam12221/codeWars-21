@@ -13,7 +13,7 @@
 
 
 // solutions 
-```javascript
+```
 const wordPattern = (pattern, str) => {
   let array1 = [...new Set(pattern.split``)];
   let array2 = [...new Set(str.split` `)];
