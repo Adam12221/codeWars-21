@@ -1,3 +1,4 @@
+/*
 Given an array of integers (x), and a target (t), you must find out if any two consecutive numbers in the array sum to t. If so, remove the second number.
 
 Example:
@@ -16,7 +17,7 @@ Return the resulting array.
 
 
 solutions:
-
+*/
 
 function trouble(x, t){
   for (let i = 0; i < x.length - 1; i++) {
