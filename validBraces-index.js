@@ -1,3 +1,4 @@
+/*
 Write a function that takes a string of braces, and determines if the order of the braces is valid. It should return `true` if the string is valid, and `false` if it's invalid.
 
 This Kata is similar to the [Valid Parentheses](https://www.codewars.com/kata/valid-parentheses) Kata, but introduces new characters: brackets `[]`, and curly braces `{}`. Thanks to `@arnedag` for the idea!
@@ -22,6 +23,7 @@ A string of braces is considered valid if all braces are matched with the correc
 
 
 Solutions:
+*/
 
 const validBraces = braces => { 
   let stack = /\(\)|\[\]|\{\}/g;
