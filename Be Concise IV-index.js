@@ -1,3 +1,4 @@
+/*
 # Be Concise IV - Index of an element in an array
 
 ## Task
@@ -9,6 +10,7 @@ Your task is to shorten the code as much as possible in order to meet the strict
 
 
 solutions:
+*/
 
 function find(a, e) {
   return a.includes(e)?  a.indexOf(e): "Not found"
