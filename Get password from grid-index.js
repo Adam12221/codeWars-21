@@ -1,3 +1,4 @@
+/*
 In this kata you are expected to recover a scattered password in a (m x n) grid (you'll be given directions of all password pieces in the array)
 
 The array will contain pieces of the password to be recovered, you'll get directions on how to get all the the pieces, your initial position in the array will be the character "x".
@@ -38,7 +39,7 @@ getPassword(grid, directions) // => "lovet"
 
 
 Solution:
-
+*/
 function getPassword(grid, directions) {
   let pass = ''
   let x;
