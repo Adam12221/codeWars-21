@@ -1,4 +1,4 @@
-
+/*
 Having two standards for a keypad layout is inconvenient!  
 Computer keypad's layout:  
 <img src="http://upload.wikimedia.org/wikipedia/commons/9/99/Numpad.svg" style="width:250px;height:250px"
@@ -31,7 +31,7 @@ You get a string with numbers only
 
 
 Solutions:
-
+*/
 
 
 
