@@ -1,3 +1,4 @@
+/*
 Let us consider this example (array written in general format):
 
 `ls = [0, 1, 3, 6, 10]`
@@ -27,6 +28,9 @@ parts_sums(ls) -> [10037855, 9293730, 9292795, 9292388, 9291934, 9291504, 929141
 
   Solutions:
   --------------------------------------------------------
+  
+  */
+
   function partsSums(ls) {
   let sum = 0;
   
