@@ -1,3 +1,5 @@
+/*
+
 JavaScript's indexOf does not work with arrays as input.  This is because [1,2] === [1,2] will return false in JavaScript.  Many other languages have similar quirks.
 
 However, sometimes it is useful to search for an Array.  Write a function that looks for an array within a two-dimensional array and returns the index of the first matching element.  If there is no match, your function should return -1.
@@ -29,6 +31,7 @@ You will be required to validate the inputs on the following criteria:
 If the inputs are not valid you should throw an Error/Exception.  Please note that in C# the test expects that an exception of type ```Exception``` be thrown and no subclass of Exception will pass the tests.
 
 Solutions:
+*/
 
 const searchArray = (array, query) => {
   if(query.length !== 2) {
