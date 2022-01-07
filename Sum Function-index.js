@@ -1,3 +1,4 @@
+/*
 Write a sum function which will work properly when invoked using either syntax below.
 
 ```javascript
@@ -12,7 +13,7 @@ HINT : use closures
 
 
 solutions:
-
+*/
 function sum(x, m) {
  if (m === undefined) {
    return function(m){
