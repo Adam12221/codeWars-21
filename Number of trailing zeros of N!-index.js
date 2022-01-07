@@ -1,3 +1,4 @@
+/*
 Write a program that will calculate the number of trailing zeros in a factorial of a given number.
 
 `N! = 1 * 2 * 3 *  ... * N`
@@ -22,6 +23,7 @@ zeros(12) = 2
 solutions
 
 ```
+*/
 function zeros(n) {
   let zs = 0;
   while (n > 0) {
@@ -30,4 +32,3 @@ function zeros(n) {
   }
   return zs;
 }
-```
